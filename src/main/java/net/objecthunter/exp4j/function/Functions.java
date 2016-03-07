@@ -190,7 +190,6 @@ public class Functions {
             @Override
             public double apply(double... args) {
                 double condition = args[0];
-                System.out.println("SI:"+condition);
                 double val1 = args[1];
                 double val2 = args[2];
                 if (condition > 0)
